@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Madcap</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <link rel="icon" href="{{ url_for('static', filename='images/logo.png') }}" type="image/png">
+</head>
+<body>
+  {% include 'header.html' %}
+  <main>
+    <section>
+      <h2>Découvrez le bateau Madcap</h2>
+      <p>L'association Madcap vous invite à découvrir un bateau historique restauré avec passion.</p>
+    </section>
+    <section>
+      <h2>Un patrimoine maritime vivant</h2>
+      <p>Le Madcap n’est pas seulement un bateau, mais un véritable trésor de l’histoire maritime. Avec des années de restauration et l’amour des membres de l'association, il navigue encore aujourd'hui.</p>
+    </section>
+    <section>
+      <h2>Rejoignez-nous !</h2>
+      <p>Participez à nos sorties en mer et plongez dans l’histoire avec le Madcap. Inscrivez-vous pour vivre une aventure inoubliable.</p>
+    </section>
+  </main>
+  {% include 'footer.html' %}
+</body>
+</html>
